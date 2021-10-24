@@ -1,20 +1,20 @@
-{
-    "Binging": {
-        "name":"Tv series",
+ {
+    "tv": {
+        "name":"tv",
         "Platform":"Netflix",
         "nickname":"i don't know",
         "biopic":"tv.jpg"
     },
-    "Workout": {
-        "name":"Tv series",
+    "workout": {
+        "name":"workout",
         "Platform":"Netflix",
         "nickname":"i don't know",
-        "biopic":"tv.jpg"
+        "biopic":"workout.jpg"
     },
-    "Music": {
-        "name":"Tv series",
+    "music": {
+        "name":"music",
         "Platform":"Netflix",
         "nickname":"i don't know",
-        "biopic":"tv.jpg"
+        "biopic":"music.jpg"
     }
   }

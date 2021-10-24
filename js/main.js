@@ -1,7 +1,8 @@
 (() => {
     const   theTeam = document.querySelector("#teamSection"),
             theTemplate = document.querySelector("#bio-template").content;
-
+    let data = {};
+    let buttons =document.querySelectorAll("button2")
     // set up a Fetch function and get some data
     function getData() {
         // retrieve our data object
@@ -11,10 +12,11 @@
                 console.log(data);
 
                 buildTeam(data);
+
             })
         .catch(error => console.error(error));
     }
-
+   let buttons = document.querySelectorAll("button");
     function buildTeam(info) {
 
         // grab the keys from the data object (the names)
@@ -32,7 +34,7 @@
 
             // update the text
             containers[1].textContent = info[person].name;
-            containers[2].textContent = info[person].role;
+            containers[2].textContent = info[person].platform;
             containers[3].textContent = info[person].nickname;
 
             theTeam.appendChild(panel);
@@ -40,5 +42,6 @@
 
     }
 
-    getData();
+   // getData();
+    buttons.forEach(button2 => button2.addEventListener("click", showData));
 })();
