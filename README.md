@@ -1,11 +1,11 @@
 # MY Favourite things
 In this wep bage app I will intorduce my favourite 3 things.
 # Project Roadmap
-1.Create landing page
-2.First devolop for mobile and add connection from landing page to main page
-3.Create data in the json file.
-4.Adding js functionality to page and sections
-5.Adding design features to data and html content
+# 1.Create landing page
+# 2.First devolop for mobile and add connection from landing page to main page
+# 3.Create data in the json file.
+# 4.Adding js functionality to page and sections
+# 5.Adding design features to data and html content
 # MIT License
 MIT License
 
