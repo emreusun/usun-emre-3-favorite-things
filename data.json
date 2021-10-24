@@ -1,0 +1,20 @@
+ {
+    "tv": {
+        "name":"tv",
+        "Platform":"Netflix",
+        "nickname":"i don't know",
+        "biopic":"tv.jpg"
+    },
+    "workout": {
+        "name":"workout",
+        "Platform":"Netflix",
+        "nickname":"i don't know",
+        "biopic":"workout.jpg"
+    },
+    "music": {
+        "name":"music",
+        "Platform":"Netflix",
+        "nickname":"i don't know",
+        "biopic":"music.jpg"
+    }
+  }

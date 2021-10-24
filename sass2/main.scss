@@ -1,0 +1,15 @@
+// import all of your partials first
+// order is important!
+@import "modules/reset";
+@import "modules/vars";
+@import "modules/queries";
+@import "modules/defaults";
+@import "modules/things";
+
+body {
+    height: 800px;
+    width: 100%;
+    display: flex;
+    
+
+}

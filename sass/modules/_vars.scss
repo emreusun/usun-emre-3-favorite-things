@@ -1,0 +1,10 @@
+$main-color: grey;
+$main-size: 15px;
+$main-font: arial, helvetica, sans-serif;
+a {
+    color: #000;
+    text-decoration: none;
+    transition:all .1s linear 0s;
+    text-decoration: solid;
+  }
+  a:hover { background-color: aqua;}
